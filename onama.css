@@ -1,0 +1,210 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+.page {
+	width: 1440px;
+	margin: 0px auto;
+}
+
+#top-menu {
+	display: flex;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #ececec;
+	color: #b3b3b3;
+	height: 70px;
+	font-size: 20px;
+}
+
+#top-menu a {
+	flex-grow: 1;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	padding-top: 18px;
+	text-align: center;
+	transition: 350ms;
+}
+
+#top-menu a:hover {
+	background-color: #8C9196;
+	color: white;
+}
+
+#top-menu .page {
+	display: flex;
+}
+
+.margin-left-auto {
+	margin-left: auto;
+}
+
+#logo .page {
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+
+#logo .korpa {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+#logo .korpa img {
+	margin-right: 20px;
+}
+
+#logo .korpa .broj-stavki {
+	text-align: right;
+	font-size: 15px;
+	color: #000000;
+}
+
+#logo .korpa .ukupna-cena {
+	text-align: right;
+	font-size: 20px;
+	color: #87aade;
+	font-weight: bold;
+}
+
+#about .page {
+	height: auto;
+}
+
+#about .page h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 3px solid black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+#about-navigation {
+	display: flex;
+}
+
+#about-navigation button {
+	flex-grow: 1;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	transition: 350ms;
+	background: white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+#about-navigation button:hover {
+	border-bottom: 3px solid black;
+	transform: scale(1.2);
+}
+
+#tekst {
+	display: flex;
+}
+
+#tekst p {
+	flex-grow: 1;
+	text-align: center;
+}
+
+#tekst-faq {
+	display: none;
+}
+
+#tekst-coop {
+	display: none;
+}
+
+#footer .page {
+	display: flex;
+	background-color: #f9f9f9;
+	width: auto;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#about-footer {
+	flex-grow: 1;
+}
+
+#about-footer a {
+	display: block;
+	text-decoration: none;
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 10px;
+	color: black;
+	transition: 350ms;
+}
+
+#about-footer a:hover {
+	color: white;
+	background-color: #8C9196;
+}
+
+#about-footer h2,
+#contact-footer h2,
+#social-footer h2 {
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#contact-footer {
+	flex-grow: 1;
+}
+
+#contact-footer img {
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#contact-footer a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	transition: 350ms;
+}
+
+#contact-footer a:hover {
+	color: red;
+	text-decoration: underline;
+	width: 150px;
+}
+
+#social-footer {
+	flex-grow: 1;
+}
+
+#social-footer img {
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#footer-bottom {
+	background-color: #747272;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+#footer-bottom p {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
